@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"></link>
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Bazar bandhu website</title>
+  <meta name="title" content="Dileep kumar - web developer.">
+  <meta name="description" content="This is a portfolio website made by Dileep kr.">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!--<link rel="shortcut icon" 
+   <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="font.css">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #PRELOADER
+  -->
+
+  <div class="preloader" data-preloader>
+    <span class="line"></span>
+  </div>
+
+
+
+
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="WhatsApp Image 2024-06-19 at 11.25.00_354131b0.jpg" width="200vh" height="200vh" alt="logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="WhatsApp Image 2024-06-19 at 11.35.41_06c395e8.jpg" width="400vh" height="400vh" alt="logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#About" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#Skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+          <li>
+            <a href="#project features" class="navbar-link" data-nav-link> project features</a>
+          </li>
+
+          <li>
+            <a href="#Dashboard" class="navbar-link" data-nav-link>Dashboard</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="#" class="btn btn:hover">
+        <span class="span">Get A Notifications</span>
+
+        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+      </a>
+
+      <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <div class="hero text-center" id="home">
+        <div class="container">
+
+          <div class="banner-outline has-after">
+
+            <div class="hero-banner img-holder has-after" style="--width: 500vh; --height: 500vh;" data-tilt>
+              <img src="WhatsApp Image 2024-06-19 at 11.35.41_06c395e8.jpg" width="500" height="680" alt="Bazar Bandhu" class="img-cover">
+            </div>
+
+            <span class="span title"></span>
+
+          </div>
+
+          <div class="hero-content">
+
+            <h1 class="h1 title">My Bazar Bandhu website page.</h1>
+
+            <div class="wrapper">
+              <a href="#" class="btn btn:hover">
+                <span class="span">Download project file</span>
+
+                <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
+              </a>
+
+              <p class="hero-text">
+                Download my project work material
+              </p>
+            </div>
+
+          </div>
+
+          <img src="graph image3.jpg" width="100vh" height="100vh" alt="shape" class="shape shape-1">
+
+          <img src="graph image2.jpg" width="100vh" height="100vh" alt="shape" class="shape shape-2">
+
+        </div>
+      </div>
+
+
+
+
+
+      <!-- 
+        service
+      -->
+
+      <section class="service text-center" aria-label="my services" id="service">
+        <div class="container">
+
+          <ul class="service-list">
+
+            <li class="service-item">   
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="web dev image.jpg" width="200vh" height="200vh" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Web <br>
+                    Development
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="dashboard image.jpg" width="200vh" height="200vh" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Dashboard <br>
+                    creation
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="garphic image2.jpg" width="200vh" height="200vh" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Graphic<br>
+                    design
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <img src="mobile image4.jpg" width="200vh" height="200vh" loading="lazy"
+                    alt="service icon">
+                </div>
+
+                <h3 class="card-title">
+                  <a href="#">
+                    Mobile App<br>
+                    design
+                  </a>
+                </h3>
+
+              </div>
+            </li>
+
+           
+                  
+               
+
+              </div>
+            </li>
+
+           
+                <style>
+                  
+                </style>
+
+               
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" aria-label="about-me" id="about">
+        <div class="container">
+
+          <div class="tab-container">
+
+            <ul class="tab-btn-list">
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6 active" data-tab-btn="about">About Me</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="skillset">our skills</button>
+              </li>
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="interview">project Dashboard</button>
+              </li>
+              
+
+              <li class="tab-btn-item">
+                <button class="tab-btn title h6" data-tab-btn="awward">project features</button>
+              </li>
+
+             
+
+            </ul>
+
+            <div class="tab-content active" data-tab-content="about">
+              <div class="grid-list">
+
+                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
+                  <img src="WhatsApp Image 2024-03-28 at 04.58.57_357901a8.jpg" width="500" height="420" loading="lazy" alt="about banner"
+                    class="img-cover">
+                </figure>
+
+                <div class="about-content">
+
+                  <h2 class="h4 title section-title">
+                  <h3>Hii, it's me</h3>  
+                  <h1>Dileep kumar</h1>
+                  <h3>Ans I'am a <span class="text"></span></h3>
+                  <p>
+                    Fronted web developer
+                  </p>
+                  
+
+                  <p class="section-text">
+                    I continuosly making fronted project.<br>In this project i create all web pages ans make it responsive website.<br>Get expertise to create <website class=""></website></p>
+
+                    
+                  </p>
+
+                  <ul class="about-list">
+
+                    <li class="about-item">
+                      <p class="list-title">Name</p>
+
+                      <span class="span title h5">Dileep kr.</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Phone Number</p>
+
+                      <span class="span title h5">123.543.787.56479875</span>
+                    </li>
+
+                    <li class="about-item">
+                      <p class="list-title">Email Address</p>
+
+                      <span class="span title h5">dkr@gamil.com</span>
+                    </li>
+
+                    <li class="about-item">
+                      
+
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="skillset">
+              <div class="grid-list">
+
+                <div class="skill-content">
+
+                  <h3 class="h4 title section-title">
+
+                    <section>
+                      <div class="skills" id="skills"></div>
+              
+                          <div class="container">
+                              <h1 class="sub-title">Our skills for this project</h1>
+                              <div class="skills-list">
+                                  
+                              <div>
+                                  <i class="bx bx-code" style="color:#00eeff"></i>
+                                  <h2>My SQL</h2>
+                                  <p>
+                                      This project done using Html,css java script and powerbi.<br>In this project we learn alot and do work with our team members.
+                                     <a href="#" class="read">Learn more</a>
+                                  </p>
+                              </div>
+              
+                              <div>
+                                  <i class="bx bx-crop" style="color:#00eeff"></i>
+                                  
+                                  
+                                  <h2>Power Bi</h2>
+                                  
+                                  <p>
+                                      This project done using Html,css java script and powerbi.<br>In this project we learn alot and do work with our team members.
+                                     <a href="#" class="read">Learn more</a>
+                                  </p>
+                              </div>
+              
+                              <div>
+                                  <i class="bx bx-apple" style="color:#00eeff"></i>
+                                  
+                                  
+                                  <h2>HTML</h2>
+              
+                                  <p>
+                                      This project done using Html,css java script and powerbi.<br>In this project we learn alot and do work with our team members.
+                                     <a href="#" class="read">Learn more</a>
+                                  </p>
+                              </div>
+              
+                              <div>
+                                  <i class="bx bx-apple" style="color:#00eeff"></i>
+                                  
+                                  <h2>CSS& JAVA SCRIPT</h2>
+                                  
+              
+                                  <p>
+                                      This project done using Html,css java script and powerbi.<br>In this project we learn alot and do work with our team members.
+                                      
+                                     <a href="#" class="read">Learn more</a>
+              
+                                  </p>
+              
+                              </div>
+              
+              
+              
+              
+              
+                      </div>
+                  </section>
+  
+    
+
+                
+
+                   
+                </div>
+
+                <figure class="skill-banner img-holder" style="--width: 570; --height: 420;" data-tilt>
+                  <img src="our skills image.jpg" width="220vh" height="220vh" loading="lazy" alt="skill banner"
+                    class="img-cover">
+                </figure>
+
+              </div>
+            </div>
+
+            <div class="tab-content" data-tab-content="interview">
+              <div class="grid-list">
+
+                <div class="project-card img-holder" style="--width: 376; --height: 420;" data-tilt>
+                  <img src="WhatsApp Image 2024-06-19 at 00.25.26_075f5a96.jpg" width="300vh" height="300vh" loading="lazy" alt="project 1"
+                    class="img-cover">
+
+                  <button class="btn btn:hover"></button>
+                </div>
+
+                <div class="project-card img-holder" style="--width: 376; --height: 420;" data-tilt>
+                  <img src="WhatsApp Image 2024-06-06 at 10.49.40_6567059d.jpg" width="300vh" height="300" loading="lazy" alt="interview 2"
+                    class="img-cover">
+
+                  <button class="btn btn:hover"></button>
+                </div>
+
+                <div class="project-card img-holder" style="--width: 376; --height: 420;" data-tilt>
+                  <img src="WhatsApp Image 2024-06-22 at 07.31.36_2fcd4ffc.jpg" width="300vh" height="300vh" loading="lazy" alt="interview 3"
+                    class="img-cover">
+
+                  <button class="btn btn:hover"></button>
+                </div>
+
+                <div class="project-card img-holder" style="--width: 376; --height: 420;" data-tilt>
+                  <img src="WhatsApp Image 2024-06-22 at 07.31.36_2fcd4ffc.jpg" width="300vh" height="300vh" loading="lazy" alt="interview 3"
+                    class="img-cover">
+
+                  <button class="btn btn:hover"></button>
+                </div>
+
+                <div class="project-card img-holder" style="--width: 376; --height: 420;" data-tilt>
+                  <img src="WhatsApp Image 2024-06-22 at 07.31.53_45383203.jpg" width="300vh" height="300vh" loading="lazy" alt="interview 3"
+                    class="img-cover">
+
+                  <button class="btn btn:hover"></button>
+                </div>
+
+                <div class="project-card img-holder" style="--width: 376; --height: 420;" data-tilt>
+                  <img src="WhatsApp Image 2024.png.jpg" width="300vh" height="300vh" loading="lazy" alt="interview 3"
+                    class="img-cover">
+
+                  <button class="btn btn:hover"></button>
+                </div>
+
+              </div>
+            </div>
+
+            <h1 class="sub-title">Our Project features</h1>
+
+    <section>
+        <div class="container1" id="features">
+            <h1 class="Heading1">.Sales performance:-Visual representation of total Sales revenue, profit margins,trends over time.</h1>
+            <h1 class="Heading2">.Product Analysis:-Top-Selling products based on revenue, quality,quantity sold and product performance trends and comparisons to its historical data.</h1>
+            <h1 class="Heading3">.Departmental Analysis:-Contribution of each departments to overall Sales revenue.Identify high performing departments. </h1>
+            <h1 class="Heading4">.Store performance:-comparisons of Sales performance across different cities.and Analyse the best store performance cities and areas.</h1>
+            <h1 class="Heading5">.Trend-Analysis:-Identify the trends of sales, peaks and troughs.and keep anlysing it.</h1>
+            <h1 class="Heading6">.Improved customer Experience:-Enhance the customer experience by offering personalized promotions, products-recommendation, and targeted marketing initiatives.</h1>
+            <p>
+                .Sales and Revenue:- 
+                Total Sales: Daily,  weekly,  monthly, yearly figures.
+                Revenue Breakdown: By product category and region.
+                Top-Selling Products: Best-selling items and their revenue.
+                Inventory Management
+                Customer Demographics: Age, gender, day, time, month of day.<br>
+                Customer Feedback: Reviews, ratings, and satisfaction scores.
+                Store Performance: Foot traffic and in-store sales.
+                Order Fulfillment: Processing times and return rates.
+                Marketing and Promotions
+                <br>
+                
+                
+                Profit Margins: Gross and net profit margins.<br>
+                 
+            </p>
+                <a href="#" class="btn-box">Learn more</a>
+
+        </div>
+    </section>
+    <section>
+
+          
+
+                  
+
+                
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta" aria-label="work with me">
+        <div class="container">
+
+          <h2 class="title h2 section-title text-center">
+            Let's Work Together On our Next Project!
+          </h2>
+          <h2>A Bazar Bandhu software</h2>
+
+          <a href="#" class="btn btn:hover">
+            <span class="span">Look forward</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      
+      </section>
+
+      
+
+
+      <div class="our website" id="Project">
+        <div class="main-text" id="project">
+            <h2>My Bazar Bandhu Dashboard</h2>
+            <div class="Website-content">
+                <div classs="row">
+                    <img src="WhatsApp Image 2024-06-06 at 10.48.19_d6458569.jpg">
+                    <img src="WhatsApp Image 2024-06-06 at 10.49.40_6567059d.jpg">
+                    <div class="layer">
+                        
+                </div>
+
+                <div classs="row">
+                    <img src="WhatsApp Image 2024-06-19 at 00.25.26_075f5a96.jpg">
+                    
+                    <div class="layer">
+                        <h5></h5>
+                        
+                             <a href="#"><i class="bx bx-link-internal" style="color:#fff;"></a></i>
+                    </div>
+
+                </div>
+
+                <div classs="row">
+                    <img src="WhatsApp Image 2024-06-19 at 00.27.39_5d263f80.jpg">
+                        
+                        
+                        <div class="layer">
+                            <h5></h5>
+                            
+                                 <a href="#"><i class="bx bx-link-internal" style="color:#fff;"></a></i>
+                        </div>
+    
+                    </div>
+
+                    <div classs="row">
+                      <img src="WhatsApp Image 2024-06-19 at 00.27.59_2cae9793.jpg">
+                          
+                          
+                          <div class="layer">
+                              <h5></h5>
+                              
+                                   <a href="#"><i class="bx bx-link-internal" style="color:#fff;"></a></i>
+                          </div>
+      
+                      </div>
+
+                        
+                </div>
+                
+                </div>
+            </div>
+
+        </div>
+           
+      </div>
+
+
+      <!-- 
+        - #CONTACT our project teams
+      -->
+
+      <section class="contact" id="contact">      
+        <div class="contact-text">
+            <h2>CONTACT OUR PROJECT TEAM</span></h2>
+            <h2>CONTACT AMAR</span></h2>
+            <h4>We work together</h4>
+
+            <p>
+                This project is done with five team members.<br>Each has a different work,all done their work.<br>we are doing this project in partnership of five students.<br>All have done good job and participate in this project.</p>
+                <div class="contact-list">
+                    <li>contact@gmail.com</li>
+                    <li>098374653</li>
+                </div>
+                <div class="contact-icons">
+                    <a href=""><i class="bx bxl-facebook-circle"></i></a>
+                    <a href=""><i class="bx bxl-instagram"></i></a>
+                    <a href=""><i class="bx bxl-twitter"></i></a>
+                    <a href=""><i class="bx bxl-linkedin-square"></i></a>
+
+
+                </div>
+                
+        </div>
+
+            <div class="contact-text">
+                
+                
+                <h2>CONTACT RISHABH </span></h2>
+                <h4>We work together</h4>
+                <p>
+                    This project is done with five team members.<br>Each has a different work,all done their work.<br>we are doing this project in partnership of five students.<br>All have done good job and participate in this project.</p>
+                    <div class="contact-list">
+                        <li>contact@gmail.com</li>
+                        <li>098374653</li>
+                    </div>
+
+                    <div class="contact-icons">
+                        <a href=""><i class="bx bxl-facebook-circle"></i></a>
+                        <a href=""><i class="bx bxl-instagram"></i></a>
+                        <a href=""><i class="bx bxl-twitter"></i></a>
+                        <a href=""><i class="bx bxl-linkedin-square"></i></a>
+    
+                    
+            </div>
+
+            <div class="contact-text">
+            
+                <h2>CONTACT ASHUTOSH</span></h2>
+                <h4>We work together</h4>
+    
+                <p>
+                    This project is done with five team members.<br>Each has a different work,all done their work.<br>we are doing this project in partnership of five students.<br>All have done good job and participate in this project.</p>
+                    <div class="contact-list">
+                        <li>contact@gmail.com</li>
+                        <li>098374653</li>
+                    </div>
+
+                    <div class="contact-icons">
+                        <a href=""><i class="bx bxl-facebook-circle"></i></a>
+                        <a href=""><i class="bx bxl-instagram"></i></a>
+                        <a href=""><i class="bx bxl-twitter"></i></a>
+                        <a href=""><i class="bx bxl-linkedin-square"></i></a>
+    
+                    
+            </div>
+
+            <div class="contact-text">
+            
+                <h2>CONTACT KAIF</span></h2>
+                <h4>We work together</h4>
+    
+                <p>
+                    This project is done with five team members.<br>Each has a different work,all done their work.<br>we are doing this project in partnership of five students.<br>All have done good job and participate in this project.</p>
+                    <div class="contact-list">
+                        <li>contact@gmail.com</li>
+                        <li>098374653</li>
+                    </div>
+
+                    <div class="contact-icons">
+                        <a href=""><i class="bx bxl-facebook-circle"></i></a>
+                        <a href=""><i class="bx bxl-instagram"></i></a>
+                        <a href=""><i class="bx bxl-twitter"></i></a>
+                        <a href=""><i class="bx bxl-linkedin-square"></i></a>
+    
+                    
+            </div>
+
+            <div class="contact-text">
+            
+                <h2>CONTACT DILEEP</span></h2>
+                <h4>We work together</h4>
+    
+                <p>
+                    This project is done with five team members.<br>Each has a different work,all done their work.<br>we are doing this project in partnership of five students.<br>All have done good job and participate in this project.</p>
+                    <div class="contact-list">
+                        <li>contact@gmail.com</li>
+                        <li>098374653</li>
+                    </div>
+
+                    <div class="contact-icons">
+                        <a href=""><i class="bx bxl-facebook-circle"></i></a>
+                        <a href=""><i class="bx bxl-instagram"></i></a>
+                        <a href=""><i class="bx bxl-twitter"></i></a>
+                        <a href=""><i class="bx bxl-linkedin-square"></i></a>
+
+    
+                    
+            </div>
+    </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="copyright">
+        Copyright & Design By  Dileep kr.
+      </p>
+
+      <a href="#top" class="back-top-btn">
+        <span class="span">Back To Top</span>
+
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+      </a>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+  <div class="cursor-dot" data-cursor></div>
+  <div class="cursor-outline" data-cursor></div>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
