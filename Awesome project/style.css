@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Gilroy;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+body{
+    background-color:rgb(40, 128, 128);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#card{
+    height:540px;
+    width:410px;
+    background-color: antiquewhite;
+    border-radius:20px;
+    border:3px solid black;
+    
+
+}
+#storiyan{
+    height: 50pxpx;
+    width:100%;
+    background-color: rgb(83, 8, 8);
+
+
+}
