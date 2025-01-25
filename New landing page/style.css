@@ -1,0 +1,239 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family:sans-serif;
+    color:#740905;
+    background-color:#5b82ec;
+    
+}
+section{
+    position:absolute;
+    right:0;
+    width:100%;
+    min-height:100vh;
+    padding:100px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    background:#5b82ec;;
+    transition:0.5s;
+    overflow:hidden;
+    
+    
+    
+    
+
+}
+
+header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    padding:40px 70px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    z-index: 1000 ;
+    
+}
+.header.logo{
+    color:#f11cb1;
+    text-transform:uppercase;
+    cursor:pointer;
+    margin-left:1px;
+    margin-right:100px;
+    margin-top:0px;
+    margin-bottom:10px;
+    
+
+}
+header .toggle{
+    position:relative;
+    height:20px;
+    width:60px;
+    size:cover;
+    
+    
+    
+}
+section .banner video{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    margin-left:100px;
+    margin-top:100px;
+    
+
+}
+.banner::after{
+    position:absolute;
+    content:'';
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:linear-gradient(to left, #0000ff, #ff0000);
+    mix-blend-mode:overlay;
+    margin-left:100px;
+    margin-top:100px;
+    background-size:cover;
+    
+
+
+}
+section .text{
+    position:relative;
+    z-index:10;
+}
+
+
+section .text h2{
+    font-size:5em;
+    color:#810c4c;
+    
+    font-weight:800;
+    line-height: 1em;
+    text-transform:uppercase;
+
+}
+section .text h3{
+    font-size:3em;
+    color:#811561;
+    font-weight:600;
+    line-height:1em;
+    text-transform:uppercase;
+
+}
+section .text p{
+    position:relative;
+    font-size:1.1em;
+    color:#91194b;
+    margin:20px 0;
+    font-weight:400;
+    max-width:700px;
+
+}
+.banner .logo{
+    font-size:30px;
+    margin-left:40px;
+    font-weight:5px;
+
+}
+.banner .logo.img{
+    font-size:1px;
+    font-weight:5px;
+    margin-top:40px;
+    margin-bottom:5px;
+    width:5px;
+    height:3px;
+}
+.my-image{
+    font-size:10px;
+    background-size:cover;
+    margin-right:100%;
+    margin-left:100%;
+    background-position: center center;
+    background-repeat:no-repeat;
+    min-height:100%;
+
+}
+
+
+
+.banner{
+    align-items:center;
+    gap:10px;
+    font-size:17px;
+}
+.banner{
+    text-align: center;
+    text-emphasis-color: #000;
+    color:#000;
+    
+    
+}
+
+
+
+section .text a{
+    display:inline-block;
+    font-size:1.1em;
+    font-weight:500px;
+    color:#db349b;
+    background:#ffffff;
+    padding:10px 30px;
+    text-transform:uppercase;
+    text-decoration:none;
+    border-radius:3px;
+    margin-top:20px;
+    letter-spacing:2px;
+    
+}
+section .social{
+    positioN:absolute;
+    z-index:10;
+    bottom:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+}
+section .social li{
+    list-style:none;
+
+}
+section .social li a{
+    display:inline-block;
+    margin-right:20px;
+    filter:invert(1);
+    transform:scale(0.7);
+
+}
+.menu{
+    position:fixed;
+    top:0;
+    right:0;
+    width:300px;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#ffffff;
+
+}
+.menu ul{
+    position:relative;
+    text-align:center;
+}
+.menu ul li{
+    position:relative;
+    list-style:none;
+}
+
+
+.menu ul li a{
+    text-decoration:none;
+    font-size:24px;
+    color:#111111;
+
+}
+/* Responsive Design */
+ @media(max-width:991px){
+    section,
+    section header {
+        padding:30px;
+    }
+    section .text h2{
+        font-size:2.5em;
+    }
+    section-text h3{
+        font-size:1.5em;
+    }
+ }

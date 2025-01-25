@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Downloads/responsive-landing-page-headphones-main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "New landing page"
+	}
+}
